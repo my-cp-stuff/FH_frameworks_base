@@ -190,7 +190,6 @@ public class KeyguardStatusBarView extends RelativeLayout
                 mMultiUserSwitch.setVisibility(View.GONE);
             }
         }
-        mBatteryView.setForceShowPercent(mBatteryCharging && mShowPercentAvailable);
         if (mCarrierLabel != null) {
             mCarrierLabel.setVisibility(mHideContents ? View.INVISIBLE : View.VISIBLE);
         }
